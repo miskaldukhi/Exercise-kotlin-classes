@@ -4,6 +4,9 @@ fun main() {
     thePoppyWar.author= "R.F.Kuang"
     thePoppyWar.yearPublished= 2018
 
+    println("Title: ${thePoppyWar.title}")
+    println("Author: ${thePoppyWar.author}")
+    println("Year Published: ${thePoppyWar.yearPublished}")
 }
 class Book {
     var title: String = ""
