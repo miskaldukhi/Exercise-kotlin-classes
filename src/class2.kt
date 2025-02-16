@@ -1,13 +1,13 @@
 
 fun main(){
-var myBook= Books("The Poppy war", "R.F.Kuang",
-    2018)
+var myBook= BookInfo("The Poppy war",
+    "R.F.Kuang", 2018)
 
   println(myBook.getBookInfo())
 
 
 }
-class Books constructor(var title: String,
+class BookInfo constructor(var title: String,
                        val author:String,
                        val yearPublished: Int){
     fun getBookInfo(){
